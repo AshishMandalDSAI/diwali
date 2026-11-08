@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#3a1670"/><stop offset="1" stop-color="#0d0727"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffe29a" stop-opacity=".9"/><stop offset="1" stop-color="#ff8a1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fl" cx="50%" cy="80%" r="75%">
+      <stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#fff0a0"/><stop offset=".7" stop-color="#ffae2e"/><stop offset="1" stop-color="#ff5a00"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffbf5e"/><stop offset=".5" stop-color="#e0661b"/><stop offset="1" stop-color="#7a2408"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <circle cx="32" cy="24" r="20" fill="url(#glow)"/>
+  <path d="M32 8 C36 15 40 20 38.5 26 C37.5 30 34.5 32 32 32 C29.5 32 26.5 30 25.5 26 C24 20 28 15 32 8Z" fill="url(#fl)"/>
+  <path d="M8 36 C18 41 46 41 56 36 C54 49 44 56 32 56 C20 56 10 49 8 36Z" fill="url(#bowl)"/>
+  <ellipse cx="32" cy="36" rx="24" ry="3.6" fill="#ffd36b"/>
+  <ellipse cx="32" cy="36" rx="19" ry="2" fill="#4a1d04"/>
+</svg>
